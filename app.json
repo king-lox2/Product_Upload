@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "Product_Upload",
+    "slug": "Product_Upload",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/splash.png",
+    "scheme": "productupload",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/splash.png",
+        "backgroundImage": "./assets/splash.png",
+        "monochromeImage": "./assets/splash.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.everist.Product_Upload",
+      "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE"]
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/splash.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-image-picker",
+
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "391ab1c3-bbd1-443f-8ef7-022d98a05631"
+      }
+    }
+  }
+}
