@@ -1,50 +1,103 @@
-# Welcome to your Expo app 👋
+# 📦 Product Upload App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A clean and user-friendly mobile application built with **React Native (Expo)** that allows users to upload and manage up to **5 products** with images, names, and prices.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
 
-   ```bash
-   npm install
-   ```
+* 📸 Upload product images from device gallery
+* ➕ Add product (name, price, image)
+* 🔢 Product limit enforcement (max: 5)
+* 🚫 Disabled button when limit is reached
+* 🗑️ Delete products
+* 💾 Persistent storage using AsyncStorage
+* ⚡ Smooth animations with Reanimated
+* 📊 Real-time product count (e.g., 3/5)
+* 📦 Empty state UI for better UX
+* ⏳ Loading feedback on actions
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 📱 Screenshots
 
-In the output, you'll find options to open the app in a
+### 🏠 Home Screen (Empty State)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+![Empty State](./assets/empty-state.png)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### ➕ Add Product
 
-## Get a fresh project
+![Add Product](./assets/add-product.png)
 
-When you're ready, run:
+### 📦 Product List
+
+![Product List](./assets/product-list.png)
+
+---
+
+## 🧠 Tech Stack
+
+* **React Native (Expo)**
+* **Context API** (State Management)
+* **AsyncStorage** (Persistence)
+* **Expo Image Picker**
+* **React Native Reanimated**
+
+---
+
+## 🏗️ Architecture
+
+The app follows a **clean and scalable structure**:
+
+* `context/` → Global state management
+* `components/` → Reusable UI components
+* `screens/` → Main UI screens
+
+This separation improves **maintainability and scalability**.
+
+---
+
+## 🎯 Key UX Decisions
+
+* Clear product limit visibility (`3/5`)
+* Disabled actions when constraints are met
+* Immediate feedback using alerts and loaders
+* Simple and intuitive UI layout
+* Helpful empty state for onboarding
+
+---
+
+## ⚙️ Setup & Installation
 
 ```bash
-npm run reset-project
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 🧪 Future Improvements
 
-To learn more about developing your project with Expo, look at the following resources:
+* ✏️ Edit product feature
+* ☁️ Backend integration (Firebase / Node.js)
+* 🔄 Drag & reorder products
+* 🎨 Advanced animations
+* 🔍 Search & filtering
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 📌 Conclusion
 
-Join our community of developers creating universal apps.
+This project demonstrates strong understanding of:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+* Mobile UI/UX principles
+* State management with Context API
+* Handling real-world constraints (limits, persistence)
+* Writing clean, maintainable React Native code
+
+---
+
+## 👨‍💻 Author
+
+Your Name
+GitHub: https://github.com/your-username
