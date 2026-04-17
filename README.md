@@ -19,21 +19,6 @@ A clean and user-friendly mobile application built with **React Native (Expo)** 
 
 ---
 
-## 📱 Screenshots
-
-### 🏠 Home Screen (Empty State)
-
-![Empty State](./assets/empty-state.png)
-
-### ➕ Add Product
-
-![Add Product](./assets/add-product.png)
-
-### 📦 Product List
-
-![Product List](./assets/product-list.png)
-
----
 
 ## 🧠 Tech Stack
 
@@ -99,5 +84,4 @@ This project demonstrates strong understanding of:
 
 ## 👨‍💻 Author
 
-Your Name
-GitHub: https://github.com/your-username
+Enemuoh Everistus 
